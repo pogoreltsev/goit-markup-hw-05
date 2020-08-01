@@ -291,12 +291,19 @@ a {
 }
 
 .work-title-name {
-  margin-top: 27px;
-  margin-bottom: 27px;
-  color: var(--title-text-color);
+  position: absolute;
+  bottom: 0em;
+
+  display: block;
+  height: 70px;
+  width: 370px;
+  padding-top: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--back-button-color);
 }
 
 .work-item {
+  position: relative;
   font-size: 14px;
   font-weight: 700;
   color: var(--title-text-color);
@@ -380,6 +387,9 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-link-svg {
   width: 20px;
@@ -417,6 +427,9 @@ a {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   padding-top: 20px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box .box-link:hover,
@@ -430,6 +443,9 @@ a {
 
 .box-link-svg {
   fill: #afb1b8;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-logo {
@@ -461,7 +477,7 @@ a {
   fill: var(--accent-text-color);
 }
 
-/*Стилизация Fotter*/
+/*Стилизация Footer*/
 .footer {
   background-color: #2f303a;
 }
