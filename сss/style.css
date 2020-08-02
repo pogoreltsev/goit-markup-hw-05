@@ -212,8 +212,6 @@ header .section {
   display: block;
   width: 100%;
 
-  /* margin-top: 28px; */
-
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
@@ -243,18 +241,13 @@ header .section {
       var(--hero-gradient-color),
       var(--hero-gradient-color)
     ),
-    url('../images/hero-image.jpg');
+    url('../img/Header/Hero_opt.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   text-align: center;
 }
-
-/* .hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-} */
 
 .hero .button {
   padding: 10px 32px;
@@ -390,7 +383,6 @@ header .section {
 
 .team-list {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .team-list-item {
@@ -440,7 +432,7 @@ header .section {
   text-align: center;
   color: var(--primary-text-color);
 }
-/* Соц сети */
+/* Социальные сети */
 
 .team-socials-item:not(:last-child) {
   margin-right: 10px;
@@ -498,9 +490,6 @@ header .section {
   width: 170px;
   height: 90px;
   box-sizing: border-box;
-  /* border: 1px solid var(--socials-main-color);
-  border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .clients-list-item-link:hover {
@@ -608,7 +597,6 @@ footer div.section {
 }
 
 .join_us {
-  /* width: 206px; */
   margin-right: 94px;
 }
 
@@ -653,7 +641,6 @@ footer div.section {
 }
 
 .icon-icon_send {
-  /* align-self: flex-end; */
   margin-left: 10px;
   width: 20px;
   height: 20px;
@@ -673,8 +660,6 @@ footer div.section {
 .portfolio-section {
   padding-top: 93px;
   padding-bottom: 94px;
-  /* padding-right: 15px;
-  padding-left: 15px; */
 }
 
 .portfolio {
@@ -683,7 +668,6 @@ footer div.section {
 }
 
 .portfolio-item {
-  /* width: 370px; */
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -716,8 +700,7 @@ footer div.section {
 
 .portfolio-title {
   margin-bottom: 4px;
-  /* padding-left: 24px;
-  padding-right: 24px; */
+  
 
   font-weight: bold;
   font-size: 18px;
@@ -727,9 +710,7 @@ footer div.section {
 }
 
 .portfolio-text {
-  /* padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px; */
+
 
   font-size: 16px;
   line-height: 1.9;
@@ -845,7 +826,6 @@ b {
   cursor: pointer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* Пока оставить цвета для вторичных кнопок */
 }
 .button-filter-secondary {
   color: var(--primary-title-color);
